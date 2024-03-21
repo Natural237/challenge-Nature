@@ -1,0 +1,310 @@
+/* *{
+   border: 1px solid red;
+} */
+
+.Container
+{
+   
+   background-color: rgb(98, 27, 185);
+   color: aliceblue;
+   font-family: arial;
+   width: 100%;
+   height: auto;
+   align-items: center;
+   text-align: center;
+   text-align: justify;
+   
+}
+.navbar{
+   width: 95%;
+   height: 70px;
+   display: flex;
+   justify-content: space-between;
+   padding: 8px 12px;
+}
+
+.list-items-nav{
+   list-style-type: none;
+   display: flex;
+   gap: 10px;
+   margin-right: 20px;
+}
+
+.entête{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   align-items: center;
+   text-align: center; 
+   flex-direction: column;
+}
+.titre{
+   font-weight: bold; 
+  font-family:arial;
+  font-size: x-large; 
+  width: 35%;
+  text-align: center;
+}
+.petitext{
+   font-size: smaller;
+   text-align: center;
+   width: 35%;  
+}  
+.bouton{
+   border-radius:45px;
+   width: 180px;
+   height: 40px;
+   background-color: aqua;
+}
+.cadre-container{
+   width: 100%;
+   margin-top: 50px;
+   /* min-height: 400px; */
+   display: flex;
+   justify-content: center; 
+   align-items: center;
+}
+.cadres{
+   width: 70%;
+   /* background: red; */
+   text-align:center ;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   row-gap: 35px;
+}
+
+.c-g{ 
+   width: 70%;
+   padding: 10px;
+   display: flex;
+   justify-content: space-around; 
+   /* background-color: blue; */
+   gap: 10px;
+   /* row-gap: 50px; */
+   flex-wrap: wrap;
+}
+
+.c{
+   background: #333;
+   max-width: 200px;
+   padding: 10px;
+}
+
+.c .c-t{
+   font-weight: bold;
+   margin-top: 25px;
+}
+.t{
+   font-size: smaller;
+   text-align: center;
+   position: relative;
+   top: 15px;
+}
+
+.img_ordi{
+   position: relative;
+   top: 10%;
+   left: 40%;
+   display: block;
+}
+
+.img-bouclier{
+   position: relative;
+   left: 40%;
+   align-items: center;
+   top: 15px;
+   display: flex;
+   
+}
+
+.img-dossier{
+   position: relative;
+   left: 0%;
+   top: 15px;
+}
+
+.image-text{
+   align-items: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+   /* background-color: aqua; */
+
+  
+}
+.solidaires{
+   width: 40%;
+   height: auto;
+   margin-left: 60px;
+   padding-bottom: 20px;
+}
+.text-droite{
+   display: block;
+   flex-wrap: wrap;
+   padding-left: 90px;
+   width: 40%;
+   padding-top: 30px;
+
+  
+}
+.son-titre{
+   font-weight: bold;
+   font-size:x-large;
+   text-align: justify;   
+}
+.son-text{
+   text-align: justify;
+   font-size: smaller;
+   position: relative;
+}
+.son-lien{
+   position: relative;
+   font-size: smaller;
+   color: aqua; 
+}
+
+ .profils{
+   height: 35vh;
+   padding-right: 10%;
+   display:flex;
+    justify-content: space-around; 
+   flex-direction: column;
+   gap: 40px;
+   flex-wrap: wrap;
+   margin: 5%; 
+   font-size: smaller; 
+ }
+.cotes{
+   position: relative;
+   bottom: 35px;
+}
+
+.utilisateur{
+   background-color: rgb(47, 7, 84);
+   width: 30%;
+   display: flex;
+   gap: 15px;
+   flex-wrap: wrap;
+   padding-right: 20px;
+   
+  
+}
+.text{
+   padding-left: 20px;
+   font-size: smaller;
+   text-align:left;
+}
+.photo1{
+   width: 40px;
+   height: auto;
+   border-radius: 100%;
+   padding-left: 20px;
+    
+}
+.nom{
+   padding-right: 100px;
+   font-weight: bolder;
+}
+.coordonnées{
+   padding-left: 20%;
+   
+}
+.photo2{
+   border-radius: 100%;
+   padding-left: 20px;
+}
+.photo3{
+   border-radius: 100%;
+   padding-left: 20px;
+}
+
+ .bas-de-page{
+   width:50%;
+   height: 200px;
+   background-color: rgb(47, 7, 84);
+  margin-top: 40px;
+  position: relative;
+  top: 80px;
+   margin-left: 20%;
+   left: 100px;
+   
+}
+.titre-page{
+   font-size: x-large;
+   position: relative;
+   text-align: center;
+   position: relative;
+   top: 23px;
+
+}
+.text-page{
+   font-size: smaller;
+   position: relative;
+   top: 8px;
+   padding: 15px;
+   text-align: center;
+
+}
+.email{
+   border: 1px aliceblue;
+   border-radius: 45px;
+   height: 30px;
+   width: 280px;
+   font-size: smaller;
+   padding-left: 20px;
+   margin-left: 20px;
+
+}
+.started{
+   position: relative;
+   left: 80px;
+   border: 1px aliceblue;
+   border-radius: 45px;
+   height: 30px;
+   padding-left: 20px;
+   font-size: smaller;
+   background-color: aqua;
+   color: black;
+} 
+.footer{
+   width: 100%;
+   height: auto;
+   background-color: rgba(0, 0, 0, 0.888);
+   color: azure;
+   font-family: arial;
+   font-size: smaller;
+   padding-top: 10%;
+
+}
+.logo2{
+   width: 60px;
+   height:20%; 
+   padding-left: 30px;
+}
+.icones{
+   text-align: left;
+   padding-left: 3%;
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.localisation {
+   /* border: 1px  solid  white   ; */
+   justify-content: space-between;  
+}
+.tel-email{
+   /* border: 1px  solid  white   ; */
+   padding:10px;
+   justify-content: space-between; 
+  
+}
+.localisation{
+   width: 30%;
+   height: auto;
+}
+.tel-email{
+   gap: 15px;
+}
